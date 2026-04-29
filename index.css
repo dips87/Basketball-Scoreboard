@@ -35,6 +35,10 @@ button {
     margin-top: 20px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .header {
     display: flex;
     justify-content: center;
