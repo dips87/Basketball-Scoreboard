@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="header">
+            <button id="new-game" onclick="reset()">New Game</button>
+        </div>
+        <div class="container">
+            <div class="home">
+                <h3>HOME</h3>
+              <div class="score-home-card">
+                <h1 id="home-score">0</h1>
+              </div>
+              <div class="score-btn-home">
+
+                    <button id="1point-home" onclick="increment1home()">+1</button>                  
+                    <button id="2point-home" onclick="increment2home()">+2</button>
+                    <button id="3point-home" onclick="increment3home()">+3</button>
+                </div>                     
+            </div>
+  
+            <div class="guest">
+                <h3>GUEST</h3>
+              <div class="score-guest-card">
+                 <h1 id="guest-score">0</h1>
+              </div> 
+              <div class="score-btn-guest">
+
+                    <button id="1point-guest" onclick="increment1guest()">+1</button>                  
+                    <button id="2point-guest" onclick="increment2guest()">+2</button>
+                    <button id="3point-guest" onclick="increment3guest()">+3</button>
+                </div>   
+            </div> 
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
